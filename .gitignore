@@ -1,0 +1,78 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.installed.cfg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.cover
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_meta
+profile_default/
+ipython_config.py
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# --- Dati grezzi e processati ---
+# Il dataset UCI 296 (Diabetes 130-US Hospitals) NON è committato:
+# va scaricato manualmente in data/raw/ (diabetic_data.csv + IDS_mapping.csv).
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# --- Modelli serializzati ---
+# Rigenerati da `readmit-train`. ~10-50 MB ciascuno → fuori dal repo.
+reports/models/*
+!reports/models/.gitkeep
+
+# --- Output di training (riproducibili) ---
+reports/cv_summary.csv
+reports/holdout_metrics.json
+reports/fairness_report.csv
+reports/fairness_report.json
+
+# --- Plots (rigenerati ad ogni run) ---
+# reports/figures/*
+
+# --- Log ---
+*.log
+logs/
+
+# --- OS ---
+.DS_Store
+*~
+
+# --- Site MkDocs ---
+site/
