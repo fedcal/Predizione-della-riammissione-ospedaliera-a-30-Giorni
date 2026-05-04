@@ -1,7 +1,7 @@
 # Predizione della riammissione ospedaliera a 30 Giorni
 
 
-La riammissione ospedaliera entro 30 giorni dalla dimissione è un indicatore di qualità assistenziale riconosciuto a livello internazionale. L'obiettivo è simulare il lavoro di un team dati che supporta un ospedale nella costruzione di un modello predittivo capace di identificare, al momento della dimissione, i pazienti ad alto rischio di riammissione.
+La riammissione  ospedaliera entro 30 giorni dalla dimissione è un indicatore di qualità assistenziale riconosciuto a livello internazionale. L'obiettivo è simulare il lavoro di un team dati che supporta un ospedale nella costruzione di un modello predittivo capace di identificare, al momento della dimissione, i pazienti ad alto rischio di riammissione.
 
 ## Dataset
 Userete il dataset “Diabetes 130-US Hospitals for Years 1999–2008”, disponibile nel UCI Machine Learning Repository (id 296) e su Kaggle. Il dataset raccoglie dieci anni di dati clinici (1999–2008) provenienti da 130 ospedali statunitensi e reti di assistenza integrata. Contiene 101.766 righe, ciascuna corrispondente a un ricovero ospedaliero di un paziente diabetico, e circa 50 feature.
