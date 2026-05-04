@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: "Modelli classificazione binaria"
-description: Capitolo: Modelli classificazione binaria. Progetto Hospital Readmission 30d.
+description: "Capitolo: Modelli classificazione binaria. Progetto Hospital Readmission 30d."
 ---
 
 # Modelli di classificazione binaria

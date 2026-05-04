@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "Architettura del progetto"
-description: Capitolo: Architettura del progetto. Progetto Hospital Readmission 30d.
+description: "Capitolo: Architettura del progetto. Progetto Hospital Readmission 30d."
 ---
 
 # Architettura del progetto

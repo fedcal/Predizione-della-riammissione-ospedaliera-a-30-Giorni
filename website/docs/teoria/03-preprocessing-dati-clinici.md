@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: "Preprocessing dati clinici"
-description: Capitolo: Preprocessing dati clinici. Progetto Hospital Readmission 30d.
+description: "Capitolo: Preprocessing dati clinici. Progetto Hospital Readmission 30d."
 ---
 
 # Preprocessing dei dati clinici

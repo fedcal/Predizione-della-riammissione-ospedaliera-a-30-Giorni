@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "Scelte di modellazione: razionale"
-description: Capitolo: Scelte di modellazione: razionale. Progetto Hospital Readmission 30d.
+description: "Capitolo: Scelte di modellazione: razionale. Progetto Hospital Readmission 30d."
 ---
 
 # Scelte di modellazione: razionale

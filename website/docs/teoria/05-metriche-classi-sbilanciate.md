@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: "Metriche su classi sbilanciate"
-description: Capitolo: Metriche su classi sbilanciate. Progetto Hospital Readmission 30d.
+description: "Capitolo: Metriche su classi sbilanciate. Progetto Hospital Readmission 30d."
 ---
 
 # Metriche di valutazione su classi sbilanciate

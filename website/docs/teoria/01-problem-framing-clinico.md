@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "Problem framing clinico"
-description: Capitolo: Problem framing clinico. Progetto Hospital Readmission 30d.
+description: "Capitolo: Problem framing clinico. Progetto Hospital Readmission 30d."
 ---
 
 # Problem framing clinico

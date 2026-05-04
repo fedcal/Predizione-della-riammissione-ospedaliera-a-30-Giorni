@@ -178,16 +178,16 @@ Discutere esplicitamente:
 
 ## Repository GitHub
 
-**Nome del repository pubblico raccomandato**: `hospital-readmission-30d`
-URL: <https://github.com/fedcal/hospital-readmission-30d>
+**Nome del repository pubblico raccomandato**: `Predizione-della-riammissione-ospedaliera-a-30-Giorni`
+URL: <https://github.com/fedcal/Predizione-della-riammissione-ospedaliera-a-30-Giorni>
 
-Il sito di documentazione è servito da **Jekyll + Just the Docs** a partire dai file Markdown della cartella [`docs/`](docs/) ed è pubblicato dal workflow [`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml) (build con Bundler, deploy via `actions/deploy-pages@v4`). **Setup richiesto una volta sola**: *Settings → Pages → Build and deployment → Source = **GitHub Actions***. Ogni push su `main` aggiorna il sito.
+Il sito di documentazione è costruito con **Docusaurus 3 + TypeScript + KaTeX** a partire dai sorgenti in [`website/docs/`](website/docs/) ed è pubblicato dal workflow [`.github/workflows/deploy-docs.yml`](.github/workflows/deploy-docs.yml) (build con `npm ci && npm run build`, deploy via `actions/deploy-pages@v4`). **Setup richiesto una volta sola**: *Settings → Pages → Build and deployment → Source = **GitHub Actions***. Ogni push su `main` aggiorna il sito.
 
 ## Documentazione completa
 
-Il sito Just the Docs (italiano, mobile-first, SEO-ready) copre teoria clinica, scelte tecniche e razionale del modello:
+Il sito Docusaurus (italiano, mobile-first, SEO-ready, KaTeX per la matematica) copre teoria clinica, scelte tecniche e razionale del modello:
 
-- **[Documentazione online](https://fedcal.github.io/hospital-readmission-30d/)**
+- **[Documentazione online](https://fedcal.github.io/Predizione-della-riammissione-ospedaliera-a-30-Giorni/)**
 
 Sezioni principali:
 
@@ -199,8 +199,8 @@ Sezioni principali:
 ### 1. Setup
 
 ```bash
-git clone https://github.com/fedcal/hospital-readmission-30d.git
-cd hospital-readmission-30d
+git clone https://github.com/fedcal/Predizione-della-riammissione-ospedaliera-a-30-Giorni.git
+cd Predizione-della-riammissione-ospedaliera-a-30-Giorni
 
 python3 -m venv venv
 source venv/bin/activate            # Windows: venv\Scripts\activate

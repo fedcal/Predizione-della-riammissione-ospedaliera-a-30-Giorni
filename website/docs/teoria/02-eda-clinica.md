@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "EDA clinica"
-description: Capitolo: EDA clinica. Progetto Hospital Readmission 30d.
+description: "Capitolo: EDA clinica. Progetto Hospital Readmission 30d."
 ---
 
 # EDA clinica

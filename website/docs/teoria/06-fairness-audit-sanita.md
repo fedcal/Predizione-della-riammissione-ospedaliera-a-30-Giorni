@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: "Fairness audit in sanità"
-description: Capitolo: Fairness audit in sanità. Progetto Hospital Readmission 30d.
+description: "Capitolo: Fairness audit in sanità. Progetto Hospital Readmission 30d."
 ---
 
 # Fairness audit in sanità

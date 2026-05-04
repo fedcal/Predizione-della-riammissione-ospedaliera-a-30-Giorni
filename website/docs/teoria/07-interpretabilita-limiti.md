@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: "Interpretabilità & limiti"
-description: Capitolo: Interpretabilità & limiti. Progetto Hospital Readmission 30d.
+description: "Capitolo: Interpretabilità & limiti. Progetto Hospital Readmission 30d."
 ---
 
 # Interpretabilità e limiti del modello
