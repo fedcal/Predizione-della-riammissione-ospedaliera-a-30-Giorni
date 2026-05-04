@@ -1,0 +1,9 @@
+{
+  "label": "Teoria",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "slug": "/category/teoria",
+    "description": "Fondamenti teorici del progetto Hospital Readmission 30d: problem framing clinico, EDA, preprocessing dati clinici, modelli per classificazione binaria sbilanciata, metriche AUC-PR, fairness audit e interpretabilità."
+  }
+}
