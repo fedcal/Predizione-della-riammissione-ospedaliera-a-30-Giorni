@@ -1,0 +1,9 @@
+{
+  "label": "Per iniziare",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "slug": "/category/per-iniziare",
+    "description": "Onboarding didattico per chi affronta il progetto Hospital Readmission 30d da zero: cosa imparerai, prerequisiti di Machine Learning, prerequisiti clinici e percorso di studio consigliato."
+  }
+}

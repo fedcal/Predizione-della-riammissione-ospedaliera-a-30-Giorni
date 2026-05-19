@@ -1,0 +1,9 @@
+{
+  "label": "Laboratorio",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "slug": "/category/laboratorio",
+    "description": "Guida pratica passo-passo: setup ambiente, esecuzione notebook, lettura output di training, esecuzione fairness audit, esercizi proposti per consolidare le competenze."
+  }
+}

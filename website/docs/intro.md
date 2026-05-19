@@ -82,7 +82,20 @@ Una soglia inferiore a `0.5` è ragionevole quando la matrice dei costi penalizz
 
 ## Mappa della documentazione
 
-### [Teoria](/docs/category/teoria)
+:::tip Sei nuovo al progetto?
+Inizia da [**Per iniziare → Cosa imparerai**](./per-iniziare/01-cosa-imparerai.md). Sono 4 capitoli che ti danno onboarding completo (obiettivi, prerequisiti ML, prerequisiti clinici, percorso di studio).
+:::
+
+### [Per iniziare](/docs/category/per-iniziare) — onboarding didattico
+
+Per chi affronta il progetto da zero. Spiega obiettivi, prerequisiti e percorso consigliato:
+
+1. [Cosa imparerai](./per-iniziare/01-cosa-imparerai.md) — patto formativo, obiettivi misurabili.
+2. [Prerequisiti di Machine Learning](./per-iniziare/02-prerequisiti-ml.md) — classificazione binaria, split, metriche, pipeline.
+3. [Prerequisiti clinici](./per-iniziare/03-prerequisiti-clinici.md) — readmission, ICD-9, HbA1c, HRRP, variabili sensibili.
+4. [Percorso di studio](./per-iniziare/04-percorso-studio.md) — ordine consigliato, percorso veloce vs completo.
+
+### [Teoria](/docs/category/teoria) — il "perché"
 
 Sette capitoli che costruiscono progressivamente il razionale clinico, metodologico ed etico del progetto:
 
@@ -94,12 +107,28 @@ Sette capitoli che costruiscono progressivamente il razionale clinico, metodolog
 6. [Fairness audit in sanità](./teoria/06-fairness-audit-sanita.md) — demographic parity, equalized odds, predictive parity.
 7. [Interpretabilità & limiti](./teoria/07-interpretabilita-limiti.md) — coefficienti, errori, automation bias, limiti del dataset.
 
-### [Scelte tecniche](/docs/category/scelte-tecniche)
+### [Scelte tecniche](/docs/category/scelte-tecniche) — il "perché di quel codice"
 
 Decisioni architetturali e di modellazione documentate con trade-off espliciti:
 
 - [Architettura](./scelte-tecniche/architettura.md) — moduli `src/readmit_pipeline/`, flusso dati, CLI.
 - [Scelte di modellazione](./scelte-tecniche/scelte-modello.md) — LogReg vs Ensemble, gestione sbilanciamento, soglia, fairness.
+
+### [Laboratorio](/docs/category/laboratorio) — hands-on passo passo
+
+Guida pratica per chi vuole **fare** il progetto, non solo leggerlo:
+
+1. [Setup ambiente](./laboratorio/01-setup-ambiente.md) — clone, venv, dataset, smoke test.
+2. [Prima esplorazione (EDA)](./laboratorio/02-prima-esplorazione.md) — apri il dataset e impara a guardarlo.
+3. [Primo modello](./laboratorio/03-primo-modello.md) — esegui il training e leggi gli output.
+4. [Leggi le metriche](./laboratorio/04-leggi-le-metriche.md) — interpretazione di AUC-PR, recall, F-β, soglia.
+5. [Fairness audit pratico](./laboratorio/05-fairness-audit-pratico.md) — Fairlearn, MetricFrame, mitigazione.
+6. [Esercizi proposti](./laboratorio/06-esercizi-proposti.md) — 5 esercizi graduati per consolidare.
+
+### [Appendici](/docs/category/appendici) — riferimenti rapidi
+
+- [Glossario](./appendici/glossario.md) — termini ML, clinici e di engineering.
+- [FAQ](./appendici/faq.md) — risposte alle domande ricorrenti su setup, scelte e fairness.
 
 ## Stack tecnologico
 
